@@ -37,11 +37,10 @@ ol, ul {
 	list-style: none;
 }
 
-/* Uniform image height for posts */
 .posts .image.fit img {
     height: 250px;
-    object-fit: cover;
     width: 100%;
+    object-fit: contain;
 }
 
 blockquote, q {
